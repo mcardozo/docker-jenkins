@@ -1,4 +1,11 @@
-# Jenkins
+<div align="center">
+ <h3 align="center">Jenkins in Docker</h3>
+ <hr>
+
+ <p align="center">
+  <img src="https://en.wikipedia.org/wiki/Jenkins_(software)#/media/File:Jenkins_logo_with_title.svg" />
+ </p>
+</div>
 
 This git repository contains necesary services for used Jenkins
 with docker and docker-compose inside.
