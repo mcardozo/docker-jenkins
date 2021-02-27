@@ -1,0 +1,19 @@
+version: '3.8'
+
+volumes:
+    local_data: {}
+
+services:
+  jenkins:
+    container_name: jenkins_local
+    image: 'jenkins/jenkins:2.249.2-lts'
+    networks:
+      - proxy
+    ports:
+      - '8080:8080'
+    restart: unless-stopped
+    volumes:
+      - local_data:/var/jenkins_home
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${docker_bin}:/bin/docker
+      - ${docker_compose_bin}:/bin/docker-compose

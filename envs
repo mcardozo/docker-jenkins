@@ -1,0 +1,2 @@
+export docker_bin=$(which docker)
+export docker_compose_bin=$(which docker-compose)
