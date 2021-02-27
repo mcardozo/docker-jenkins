@@ -3,7 +3,7 @@
  <hr>
 
  <p align="center">
-  <img src="https://en.wikipedia.org/wiki/Jenkins_(software)#/media/File:Jenkins_logo_with_title.svg" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Jenkins_logo_with_title.svg/1920px-Jenkins_logo_with_title.svg.png" />
  </p>
 </div>
 
